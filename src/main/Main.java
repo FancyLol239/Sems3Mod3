@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        Hitung h = new Hitung();
+        Hasil h = new Hasil();
         Perhitungan p = new Perhitungan();
 
 
@@ -18,8 +18,7 @@ public class Main {
         h.setTinggi(s.nextInt());
         System.out.println("");
         h.Hasil();
-        System.out.print("Balok " + p.isCube(1));
-
+        System.out.print("Balok " + p.isCube(p.luas(h)));
     }
 
 }

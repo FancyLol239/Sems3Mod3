@@ -1,6 +1,6 @@
 package main;
 
-public class Hitung {
+public class Hasil {
 
     private int panjang;
     private int lebar;
@@ -31,10 +31,11 @@ public class Hitung {
     }
 
 
-    protected void Hasil(){
+    protected long Hasil(){
         Perhitungan p = new Perhitungan();
         System.out.println("Hasil Luas Balok   : "+ p.luas(this));
         System.out.println("Hasil Volume balok : " + p.volume(this));
+        return 0;
     }
 
 }
